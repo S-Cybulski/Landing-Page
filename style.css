@@ -265,3 +265,14 @@ a {
     align-self: flex-start;
     align-self: center;
 }
+
+/* Everything to do with the footer */
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
