@@ -49,10 +49,25 @@ a,
     margin-right: 200px;
     display: flex;
     flex: 1;
+    border-radius: 10px;
 }
 
 .intro-card .left-side .heading {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+}
+
+.intro-card .left-side .sign-up {
+    display: flex;
+    font-weight: bold;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 95px;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: #f9faf8;
+    border-color: #3882f6;
 }
