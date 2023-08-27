@@ -1,10 +1,17 @@
 body {
-    font-family: sans-serif, 'Times New Roman', Times, serif;
+    font-family: 'Roboto';
     display: flex;
     flex-direction: column;
 }
 
-a,
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+/* Everything to do with intro card */
+
 .intro-card .left-side .subtext {
     text-decoration: none;
     color: #e5e7eb;
@@ -38,7 +45,6 @@ a,
     background-color: #1F2937;
     justify-content: center;
     align-items: flex-start;
-
     gap: 20px
 }
 
@@ -116,4 +122,80 @@ a,
 .button-container {
     display: flex;
     justify-content: flex-start;
+}
+
+/* Everything to do with info card */
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 100px;
+}
+
+.info-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    justify-content: center;
+    text-align: center;
+    color: grey;
+}
+
+.info-image {
+    border: 2px solid #3992f6;;
+    border-radius: 20px;
+}
+
+.info-card .heading {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    align-self: center;
+}
+
+/* Everything to do with the quote card */
+
+.quote-card {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-container {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.quote {
+    font-size: 36px;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 300;
+    max-width: 1000px;
+    align-self: center;
+    text-align: left;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: bold;
+    align-self: flex-end;
+    margin-right: 100px;
 }
